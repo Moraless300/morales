@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=Oleo+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=Oleo+Script:wght@400;700&family=Sintony:wght@400;700&display=swap');
+
+:root {
+
+    --colorTerciario: #256effff;
+    --colorOscuro: #46237aff;
+    --colorSecundario: #3ddc97ff;
+    --colorClaro: #fcfcfcff;
+    --colorPrimario: #ff495cff;
+
+    --font-family-overclok-regular: "Sintony", sans-serif;
+    --font-weight-overclok-regular: 400;
+    --font-weight-overclok-bold: 700;
+    --font-style-overclok-bold: normal;
+
+    --font-family-alegreya-regular: "Oleo Script", system-ui;
+    --font-weight-alegreya-regular: 400;
+    --font-weight-alegreya-bold: 700;
+    --font-style-alegreya-regular: normal;
+
+
+
+}
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family-alegreya-regular);
+
+}
+
+h1 {
+
+    font-family: var(--font-family-overclok-regular);
+    font-weight: var(--font-weight-alegreya-bold);
+    font-size: 1.5rem;
+
+}
+
+h2 {
+
+    font-family: var(--font-family-overclok-regular);
+    font-weight: var(--font-weight-alegreya-bold);
+    font-size: 1.5rem;
+
+}
+
+h3 {
+
+    font-family: var(--font-family-overclok-regular);
+    font-weight: var(--font-weight-alegreya-bold);
+    font-size: 1.5rem;
+
+}
+
+h4 {
+
+    font-family: var(--font-family-overclok-regular);
+    font-weight: var(--font-weight-alegreya-bold);
+    font-size: 1.5rem;
+
+}
+
+h5 {
+
+    font-family: var(--font-family-overclok-regular);
+    font-weight: var(--font-weight-alegreya-bold);
+    font-size: 1.5rem;
+
+}
+
+h6 {
+
+    font-family: var(--font-family-overclok-regular);
+    font-weight: var(--font-weight-alegreya-bold);
+    font-size: 1.5rem;
+
+}
+
+li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--colorOscuro);
+}

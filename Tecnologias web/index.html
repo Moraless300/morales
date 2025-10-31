@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>YxmTec - Tienda de Laptops</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="#" class="logo">YxmTec</a>
+      </div>
+
+      <nav class="nav">
+        <ul id="menu" class="menu">
+          <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+          <li><a href="#productos" class="nav-link">Laptops</a></li>
+          <li><a href="#testimonios" class="nav-link">Testimonios</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+
+        <button id="hhh" class="hhh" aria-label="Abrir menú">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    
+    <section id="inicio" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Bienvenido a <span class="accent">YxmTec</span></h1>
+          <p class="lead">Innovación y potencia en cada laptop. Encuentra equipos para gaming, diseño y productividad.</p>
+          <a href="#productos" class="btn btn-primary">Ver Laptops</a>
+        </div>
+        <div class="hero-media">
+          <div class="hero-card">
+            <img src="img/images.jpeg" alt="Laptop hero" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+    <section id="productos" class="section productos">
+      <div class="container">
+        <h2 class="section-title">Nuestras Laptops</h2>
+
+        <div class="productos-grid">
+          <article class="producto" data-nombre="hp omen rtx 4060">
+            <img src="img/2650232_0001.webp" alt="HP Omen RTX 4060">
+            <h3>HP Omen RTX 4060</h3>
+            <p class="specs">Intel Core Ultra 7 • 16GB • 1TB SSD</p>
+            <p class="price">$1,499</p>
+          </article>
+
+          <article class="producto" data-nombre="asus rog strix">
+            <img src="img/asus r9.webp" alt="Asus ROG Strix">
+            <h3>Asus ROG Strix</h3>
+            <p class="specs">AMD Ryzen 9 • RTX 4070 • 32GB</p>
+            <p class="price">$1,899</p>
+          </article>
+
+          <article class="producto" data-nombre="lenovo legion 5">
+            <img src="img/r7.webp" alt="Lenovo Legion 5">
+            <h3>Lenovo Legion 5</h3>
+            <p class="specs">Ryzen 7 • RTX 3060 • 16GB</p>
+            <p class="price">$1,299</p>
+          </article>
+
+          <article class="producto" data-nombre="dell xps 13 plus">
+            <img src="img/i7.jpeg" alt="Dell XPS 13 Plus">
+            <h3>Dell XPS 13 Plus</h3>
+            <p class="specs">Intel i7 • 16GB • 512GB SSD</p>
+            <p class="price">$1,399</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="testimonios" class="section testimonios">
+      <div class="container">
+        <h2 class="section-title">Testimonios</h2>
+        <div class="testimonials-grid">
+          <blockquote class="testimonial">
+            <p>"Excelente atención y equipo de alto rendimiento. 100% recomendado."</p>
+            <cite>- Mariana, diseñadora</cite>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p>"Rendimiento impecable para gaming y trabajo. Gran servicio posventa."</p>
+            <cite>- Diego, gamer</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="contacto" class="section contacto">
+      <div class="container">
+        <h2 class="section-title">Contacto</h2>
+
+        <div class="contact-grid">
+          <form id="formContacto" class="contact-form" novalidate>
+            <label>
+              <span>Nombre</span>
+              <input type="text" name="nombre" placeholder="Tu nombre" required />
+            </label>
+
+            <label>
+              <span>Correo</span>
+              <input type="email" name="email" placeholder="tu@ejemplo.com" required />
+            </label>
+
+            <label class="full">
+              <span>Mensaje</span>
+              <textarea name="mensaje" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+            </label>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </form>
+
+          <div class="contact-info">
+            <h3>Canales directos</h3>
+            <p>También puedes comunicarte con nosotros a través de:</p>
+
+            <div class="contact-links">
+             
+              <a class="contact-link" href="https://wa.me/51987654321" target="_blank" rel="noopener">
+                <svg class="icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+                  <path fill="#25D366" d="M..."></path>
+                </svg>
+                <span>WhatsApp</span>
+              </a>
+
+              
+              <a class="contact-link" href="mailto:soporte@yxmtec.pe">
+                <svg class="icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+                  <path fill="#EA4335" d="M..."></path>
+                </svg>
+                <span>Email</span>
+              </a>
+
+              
+              <a class="contact-link" href="tel:+51987654321">
+                <svg class="icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+                  <path fill="#1E88E5" d="M..."></path>
+                </svg>
+                <span>Teléfono</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 YxmTec - Tecnología sin límites.</p>
+    </div>
+
+    
+    <div class="floating-panel" aria-hidden="false">
+      <button id="footerBtn" class="footer-btn" aria-expanded="false" aria-controls="footerInfo">
+        ℹ️
+      </button>
+
+      <div id="footerInfo" class="footer-info" role="region" aria-label="Información de soporte" hidden>
+        <h4>Atención al cliente</h4>
+        <p>Horario: Lunes - Viernes 9:00 am – 6:00 pm</p>
+        <p>Email: soporte@yxmtec.pe</p>
+        <p>Tel: +51 987 654 321</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
